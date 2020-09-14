@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import axios from 'axios'
 function Search() {
-    const [searchText,setSearchText]= useState('default ')
+    const [searchText,setSearchText]= useState('programming ')
     const [debouncedText,setDebouncedText]=useState(searchText)
     const [results,setResults]=useState([])
 
